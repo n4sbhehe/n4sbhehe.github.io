@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            
+        <a class="navbar-brand" href="#"><img src="photo/home.png" alt="" width="40px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">關於</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">服務</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">聯絡</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <section style="background-color: navajowhite;" class="text-center py-5">
+        <div class="container">
+        <h1 class="display-5 fw-bold">歡迎來到我的超跑展示館</h1>
+        <p class="lead text-muted">這是一個使用 Bootstrap 打造的 RWD 網頁作業</p>
+        </div>
+    </section>
+
+    <div class="modal" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">了解</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <h1>更多。</h1>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+            <h5 class="card-title">跑車一</h5>
+            <p class="card-text">Aston Martin Valkyrie</p>
+            <img class="w-100" src="photo/1-Aston-Martin-Valkyrie.jpg" alt="">
+            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#Modalimg1">
+                了解更多
+                </button>
+                <div class="modal fade" id="Modalimg1" tabindex="-1" aria-labelledby="ModalimgLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalimgLabel">Aston Martin Valkyrie</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photo/1-Aston-Martin-Valkyrie.jpg" class="img-fluid rounded mb-3" alt="Aston Martin Valkyrie">
+                        <p>
+                        極致的賽道科技與公路性能結合。採用 F1 等級的空氣力學設計與碳纖維車體，搭載 6.5 公升 V12 引擎，輸出超過 1000 匹馬力。
+                這不只是超跑，而是一台能合法上路的「F1 賽車」。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+            <h5 class="card-title">跑車二</h5>
+            <p class="card-text">Mecedes Benz Maybach S-Class</p>
+            <img class="w-100" src="photo/4ed7b026273f0c9587dc7f2b77bb41ff.jpeg" alt="">
+            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#Modalimg2">
+                了解更多
+                </button>
+                <div class="modal fade" id="Modalimg2" tabindex="-1" aria-labelledby="ModalimgLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalimgLabel">Mecedes Benz Maybach S-Class</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photo/4ed7b026273f0c9587dc7f2b77bb41ff.jpeg" class="img-fluid rounded mb-3 w-100" alt="Aston Martin Valkyrie">
+                        <p>
+                        豪華的象徵，專為極致舒適與尊榮體驗而打造。Maybach S-Class 擁有頂級真皮內裝、主動懸吊系統與先進駕駛輔助科技。
+                不論乘坐或駕駛，都能感受到「極致靜謐與奢華」。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+            <h5 class="card-title">跑車三</h5>
+            <p class="card-text">Porsche 911 GT3 RS</p>
+            <img class="w-100" src="photo/iris.webp" alt="">
+                            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#Modalimg3">
+                了解更多
+            </button>
+            <div class="modal fade" id="Modalimg3" tabindex="-1" aria-labelledby="ModalimgLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalimgLabel">Porsche 911 GT3 RS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="photo/iris.webp" class="img-fluid rounded mb-3 w-100" alt="Aston Martin Valkyrie">
+                    <p>
+                    純正的賽道靈魂。911 GT3 RS 採用自然進氣 4.0 公升水平對臥六缸引擎，轉速高達 9000rpm，結合主動空氣力學與輕量化設計，提供極致操控樂趣。
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+            <h5 class="card-title">跑車四</h5>
+            <p class="card-text">Ferrari 488 GTB</p>
+            <img class="w-100" src="photo/OIP.webp" alt="">
+            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#Modalimg4">
+                了解更多
+                </button>
+                <div class="modal fade" id="Modalimg4" tabindex="-1" aria-labelledby="ModalimgLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalimgLabel">Ferrari 488 GTB</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photo/OIP.webp" class="img-fluid rounded mb-3 w-100" alt="Aston Martin Valkyrie">
+                        <p>
+                        Ferrari 488 GTB 是一款搭載 3.9 公升 V8 雙渦輪增壓引擎的超跑，擁有 670 匹馬力，0-100 km/h 僅需 3 秒。
+                    車身設計結合經典 Ferrari 元素與現代空氣動力學，提供極致駕駛體驗。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+            <h5 class="card-title">跑車五</h5>
+            <p class="card-text">Lamborghini Huracán</p>
+            <img class="w-100" src="photo/OIP (1).webp" alt="">
+            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#Modalimg5">
+                了解更多
+                </button>
+                <div class="modal fade" id="Modalimg5" tabindex="-1" aria-labelledby="ModalimgLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalimgLabe2">Lamborghini Huracán</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photo/OIP (1).webp" class="img-fluid rounded mb-3 w-100" alt="Aston Martin Valkyrie">
+                        <p>
+                        Lamborghini Huracán 配備 5.2 公升 V10 自然進氣引擎，最大馬力 610 匹，0-100 km/h 約 3.2 秒。
+                    外觀設計充滿六角形元素與侵略感，內裝豪華並搭載先進資訊娛樂系統，是品牌標誌性的超跑。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2025 我的網站. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
