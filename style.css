@@ -1,0 +1,25 @@
+.header1{
+    border-radius: 15px;
+    background-color: bisque;
+}
+.header1:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.acolor:link{
+    display: inline-block; 
+    padding: 5px 10px; 
+    background-color: transparent; 
+    color: black; 
+}
+.acolor:visited{
+    color: burlywood;
+}
+.acolor:hover{
+    color: white;
+    background-color: tomato;
+}
+img{
+    height: 300px;
+    border: 2px dashed black;
+}
